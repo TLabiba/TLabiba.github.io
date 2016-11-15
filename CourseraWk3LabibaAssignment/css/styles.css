@@ -7,18 +7,15 @@ body{
 
 }
 
-
 /**header**/
 #header-nav {
 	background-color: #2F4F4F;
 	border-radius: 0;
 	border: 0;
-
 }
 
 .navbar-brand {
 	padding-top: 10px 25px 10px 25px;
-
 }
 
 .navbar-brand h1{
@@ -49,7 +46,6 @@ line-height: .75;
 
 #nav-list {
 	margin-top: 10px;
-
 }
 
 #nav-list a {
@@ -59,7 +55,6 @@ line-height: .75;
 
 #nav-list a:hover {
 	background:  gray;
-
 }
 
 #nav-list a span {
@@ -72,7 +67,7 @@ line-height: .75;
 .navbar-header button.navbar-toggle {
   clear: both;
 }
-/* END HEADER */
+/* header-end */
 
 /*homepage*/
 #page-heading p{
@@ -83,29 +78,28 @@ line-height: .75;
 .container-fluid{
   font: 12px;
   text-align:justify;
-  height:900px;
+  height: 1000px;
   background-color: gray;
   border: 1px solid white;
   margin: 15px;
   padding: 25px;
 }
 
-
-/********** Large devices only **********/
+/********** Large devices only *********
 @media (min-width: 1200px) {
 
 }
 
-/********** Medium devices only **********/
+********** Medium devices only **********
 @media (min-width: 992px) and (max-width: 1199px) {
 
 }
 
-/********** Small devices only **********/
+/********** Small devices only **********
 @media (min-width: 768px) and (max-width: 991px) {
 
 }
-
+*/
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
 	/* Header */
@@ -123,32 +117,26 @@ line-height: .75;
       border: 1px white;
   }
 
-
   #xs-deliver {
     margin-top: 5px;
     font-size: .7em;
     letter-spacing: .1em;
     text-transform: uppercase;
   }
-  /* End Header */
-    /* Home Page */
+  
   .container {
     margin-top: 30px;
     padding: 10px;
   }
-
-
 }
 
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 { /* name */
     padding: 5px;
     font-size: 6vw;
   }
-  /* End Header */
-
   }
 }
